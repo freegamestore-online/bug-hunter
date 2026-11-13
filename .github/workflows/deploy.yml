@@ -1,0 +1,20 @@
+name: CI / Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci-and-deploy:
+    if: ${{ !github.event.repository.is_template }}
+    uses: freegamestore-online/ci-workflows/.github/workflows/game-deploy.yml@8d03ac1919f7d3b7dc114baacb19d8b60118cde4
+    permissions:
+      contents: read
+      id-token: write
