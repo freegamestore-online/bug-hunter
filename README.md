@@ -3,15 +3,14 @@
 Find the bug in beginner-friendly JavaScript puzzles. Bug Hunter is a free,
 standalone game for [FreeGameStore](https://freegamestore.online).
 
-## Run locally
+## Run from the project root:
 
 ```powershell
-cd web
 pnpm install
 pnpm dev
 ```
 
-Build and type-check from `web/` with `pnpm build` and `pnpm typecheck`.
+Build and type-check with `pnpm build` and `pnpm typecheck`.
 
 ## Publish
 
