@@ -1,4 +1,9 @@
 @import "tailwindcss";
+
+/* Token utilities the SDK components use: bg-paper, text-ink, border-line, ... */
+@theme inline {
+  --font-display: "Fraunces", serif;
+}
 @source "../node_modules/@freegamestore/games/dist";
 @import "@freegamestore/games/theme.css";
 

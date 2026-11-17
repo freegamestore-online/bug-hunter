@@ -11,8 +11,8 @@ importers:
   web:
     dependencies:
       '@freegamestore/games':
-        specifier: ^0.19.0
-        version: 0.19.1(react@19.3.1)
+        specifier: ^0.20.3
+        version: 0.20.3(react@19.3.1)
       react:
         specifier: ^19.2.5
         version: 19.3.1
@@ -566,8 +566,8 @@ packages:
   '@emnapi/wasi-threads@2.2.0':
     resolution: {integrity: sha512-JP7OYH38Q7+pyTAe14raZHLQIK7BDKbdwji+Xi3pcd/6QkJYQH3SX4wu6EplGrGJWRepoNzedfm0G3B9Z4e9Rw==}
 
-  '@freegamestore/games@0.19.1':
-    resolution: {integrity: sha512-FdUa8vKLAAFpzpyxIBA7LrYTa0oE+Sp5MLeCFQsR4jVnRq4O6sJe/x0npSaQYeM97VOaXPvAfAkWCE4chuvPHA==}
+  '@freegamestore/games@0.20.3':
+    resolution: {integrity: sha512-VEa7agBUfjdRhPkgxQfRdn81/LzKOf9zPC4nhMIfK5rtvSmqi7WkEM9KqXDeVDdzYwkOzpUFr9PH2Lns2VvTGQ==}
     engines: {node: '>=22'}
     peerDependencies:
       react: ^19.0.0
@@ -2769,7 +2769,7 @@ snapshots:
       tslib: 2.9.1
     optional: true
 
-  '@freegamestore/games@0.19.1(react@19.3.1)':
+  '@freegamestore/games@0.20.3(react@19.3.1)':
     dependencies:
       react: 19.3.1
 
